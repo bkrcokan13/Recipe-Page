@@ -35,7 +35,6 @@ body {
     position: absolute;
     left: 50%;
     transform: translate(-50%,0%);
-
 }
 
 .recipe-header {
@@ -84,15 +83,13 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     background-color: var(--neutral-rose-white);
-    padding: 15px;
-    
+    padding: 15px;  
 }
 
 .recipe-preparation h3 {
     font-family: var(--description-font);
     color: var(--primary-dark-raspberry);
 }
-
 
 
 .recipe-preparation li {
@@ -103,8 +100,6 @@ body {
     color: var(--primary-dark-raspberry);
 
 }
-
-
 
 .recipe-preparation li > p {
     font-family: var(--description-font);
@@ -136,7 +131,6 @@ body {
     list-style: inside;
     list-style-type: square;
 }
-
 
 .recipe-ingradients li {
     margin: 14px 25px;
@@ -177,17 +171,26 @@ body {
 }
 
 .nutrition-table {
+    margin-top: 30px;
     border-collapse: collapse;
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    font-size: 18px;
+    font-family: var(--description-font);
+    font-size: 16px;
     text-align: center;
 }
 
+.nutrition-table table {
+    width: 100%;
+    text-align: left;
+}
+
+.nutrition-table .title {
+    color: var(--neutral-dark-charcoal);
+    font-weight: 400;
+    
+}
+
 .nutrition-table th {
-    padding: 10px;
     background-color: #f4f4f4;
     font-weight: normal;
 }
@@ -199,5 +202,31 @@ body {
 
 .nutrition-table .value {
     font-weight: bold;
-    color: #6e4b1f;
+    color: var(--primary-nutmeg);
+}
+
+.dividers-solid {
+    border-top: 2px solid var(--neutral-light-grey);
+
+}
+
+
+@media only screen and (max-width:767px) {
+    .recipe-picture img {
+        border-radius: 0px;
+        
+        height: 200px;
+        
+
+        
+
+    }
+
+    .recipe-container {
+        width: 100%;
+        margin-top: 0px;
+        border-radius: 0;
+
+        
+    }
 }
