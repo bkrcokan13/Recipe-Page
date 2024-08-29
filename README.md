@@ -9,19 +9,17 @@ A beautiful and responsive recipe web page that showcases various delicious reci
 - [Installation](#installation)
 - [Usage](#usage)
 - [Screenshot](#screenshot)
-- [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
 
 ## Demo
 
-Check out the live demo: [Recipe Page Demo](#) *(Replace `#` with the actual link if available)*
+Check out the live demo: [Recipe Page Demo](https://gorgeous-seahorse-aefe1e.netlify.app/) 
 
 ## Features
 
 - Beautifully designed recipe cards with images, ingredients, and instructions.
 - Responsive layout suitable for both desktop and mobile devices.
-- Easy navigation through different recipes.
 - User-friendly interface for a seamless browsing experience.
 
 ## Technologies Used
@@ -51,31 +49,6 @@ Check out the live demo: [Recipe Page Demo](#) *(Replace `#` with the actual lin
 Here is a screenshot of the Recipe Page:
 
 ![Recipe Page Screenshot](screenshot.png) *(Make sure to add a screenshot image to your repo and update the path accordingly)*
-
-## Contributing
-
-Contributions are welcome! Here’s how you can contribute:
-
-1. Fork the repository.
-2. Create a new branch:
-
-    ```bash
-    git checkout -b feature/your-feature-name
-    ```
-
-3. Commit your changes:
-
-    ```bash
-    git commit -m "Add your message here"
-    ```
-
-4. Push to the branch:
-
-    ```bash
-    git push origin feature/your-feature-name
-    ```
-
-5. Open a pull request.
 
 ## License
 
